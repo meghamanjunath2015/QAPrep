@@ -1,0 +1,26 @@
+What is a USE CASE? Use cases describe the cause and effect of a function
+
+Verify vs ASSert? 
+if Verify fails , the execution of the code is not hindered and it contious the test 
+if Asserts fails, the code execution is stopped 
+
+different kinds of testing?
+
+Functional: regression  , smoke, sanity, user acceptance testing, exploratory,
+
+Non-functional : load, performance, localization, ACCESSiBILTY testing 
+
+SANITY and SMOKE?
+Smoke Testing:
+Purpose: Smoke testing is performed to check the basic functionality of the software build to determine if it is stable enough for further testing.
+Scope: It focuses on testing the major functionalities of the application without going into detail.
+Timing: Smoke testing is usually performed after a new build is received or after major changes are made to the codebase.
+Depth: It is a shallow and broad test to ensure that critical functions work and to identify show-stopper defects.
+Outcome: If the smoke test fails, it indicates that the build is not stable and further testing is postponed until the issues are fixed.
+
+Sanity Testing:
+Purpose: Sanity testing is performed to quickly evaluate whether specific functionalities or areas of the software are working correctly after changes are made.
+Scope: It focuses on specific areas or functionalities of the application that were affected by recent changes.
+Timing: Sanity testing is usually performed after a specific change or bug fix is implemented, to ensure that the functionality impacted by the change is still working.
+Depth: It is a focused and narrow test to ensure that the specific changes made have not introduced new issues or regressions.
+Outcome: If the sanity test fails, it indicates that the recent changes have introduced issues that need to be addressed before further testing.
